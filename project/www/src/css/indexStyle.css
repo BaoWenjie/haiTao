@@ -1,0 +1,642 @@
+.adTop {
+    height: 80px;
+    width: 1248px;
+    background: url(../images/home/sprite.png) 0 0 no-repeat;
+    margin: 0 auto;
+}
+
+#top {
+    height: 30px;
+    border-bottom: 1px solid #ededee;
+    background-color: #f2f2f2;
+}
+
+#top .w div.l {
+    font-size: 12px;
+    color: #666;
+    line-height: 30px;
+}
+
+#top .w div.l a {
+    color: #666;
+}
+
+#top .w div.l a.phone {
+    color: #d22147;
+}
+
+#top .w div.l a.in {
+    padding-left: 21px;
+    padding-right: 11px;
+    border-right: 1px solid #d3ccd3;
+}
+
+#top .w div.l a.join {
+    padding-left: 14px;
+    padding-right: 18px;
+}
+
+#top .w ul {
+    height: 30px;
+}
+
+#top .w ul li {
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+#top .w ul span {
+    line-height: 30px;
+    color: #d3ccd3;
+    font-size: 12px;
+}
+
+#top .w ul li > a {
+    color: #666;
+    display: block;
+    height: 30px;
+    padding: 0 15px;
+}
+
+#top .w ul li.more {
+    background: url(../images/home/sprite.png) 67px -218px no-repeat;
+    padding-right: 10px;
+    position: relative;
+}
+
+#top .w ul li .person {
+    width: 89px;
+    padding: 5px 14px 12px;
+    background-color: #fff;
+    position: absolute;
+    left: -2px;
+    border: 1px solid #e8e8ea;
+    border-top: none;
+    visibility: hidden;
+}
+
+#top .w ul li .person a {
+    display: block;
+    height: 28px;
+    color: #666;
+}
+
+.person div {
+    border-bottom: 1px solid #eaeaea;
+}
+
+#top .w ul li.more:hover .person {
+    visibility: visible;
+}
+
+#top .w ul li .person a:hover {
+    color: #d22147;
+}
+
+.service {
+    width: 97px;
+    position: absolute;
+    left: -2px;
+    padding: 3px 0 12px 0;
+    background: url(../images/home/sprite.png) 0 -249px no-repeat;
+    border: 1px solid #e8e8ea;
+    border-top: none;
+    visibility: hidden;
+}
+
+.service a {
+    color: #666;
+    display: block;
+    height: 28px;
+    text-indent: 33px;
+    line-height: 28px;
+}
+
+#top .w ul li.more:hover .service {
+    visibility: visible;
+}
+
+#top .w ul li.last {
+    background: url(../images/home/sprite.png) 44px -218px no-repeat;
+    padding-right: 10px;
+    position: relative;
+}
+
+#top .w ul li.last .moreDiv {
+    width: 60px;
+    padding: 3px 14px 12px;
+    border: 1px solid #e8e8ea;
+    border-top: none;
+    background-color: #fff;
+    position: absolute;
+    left: -2px;
+    visibility: hidden;
+}
+
+#top .w ul li.last .moreDiv div {
+    border-bottom: 1px solid #eaeaea;
+}
+
+#top .w ul li.last .moreDiv a {
+    color: #666;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+}
+
+#top .w ul li.last:hover .moreDiv {
+    visibility: visible;
+}
+
+#top .w ul li.last .moreDiv a:hover {
+    color: #d22147;
+}
+
+#top .w a:hover {
+    color: #d22147;
+}
+
+#header {
+    height: 100px;
+}
+
+#header h1 a {
+    display: block;
+    height: 100px;
+    width: 433px;
+    background: url(../images/home/sprite.png) 0 -80px no-repeat;
+}
+
+#header .r {
+    padding-top: 26px;
+}
+
+#header .r .search {
+    float: left;
+    height: 30px;
+    width: 317px;
+    border: 1px solid #d22147;
+    background: url(../images/home/sprite.png) 0 -180px no-repeat;
+    text-indent: 30px;
+    color: #999;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+#header .r .btn {
+    float: left;
+    height: 32px;
+    width: 62px;
+    background-color: #d22147;
+    border: 0;
+    font-size: 13px;
+    color: #fff;
+}
+
+#header .r div {
+    margin-top: 38px;
+    clear: both;
+}
+
+#header .r div a {
+    font-size: 13px;
+    color: #444;
+
+}
+
+#header .r div a.red {
+    color: #d22147;
+}
+
+#header .r div span {
+    margin: 0 10px;
+    color: #b299b2;
+    font-size: 12px;
+}
+
+#nav {
+    height: 42px;
+    background-color: #222;
+}
+
+#nav ul {
+    height: 42px;
+}
+
+#nav ul li {
+    width: 110px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+}
+
+#nav ul li a {
+    color: #fff;
+    display: block;
+    height: 42px;
+    width: 110px;
+    text-align: center;
+}
+
+#nav ul li a:hover {
+    background-color: #444;
+}
+
+#nav ul li.first {
+    width: 100px;
+}
+
+#nav ul li.first a {
+    width: 100px;
+    background-color: #d22147;
+}
+
+#pic {
+    height: 400px;
+    background-color: greenyellow;
+}
+
+#icon {
+    background-color: #f3f3f3;;
+}
+
+#icon .w {
+    height: 81px;
+    background: url(../images/home/sprite.png) 0 -321px no-repeat;
+}
+
+#content {
+    background: #f3f3f3;
+}
+
+#content .dayNew {
+    width: 1091px;
+}
+
+#content .dayNew h2 {
+    height: 60px;
+    font-size: 23px;
+    line-height: 60px;
+    font-weight: normal;
+}
+
+#content .dayNew h2 span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#content .dayNew div {
+    height: 304px;
+    border: 1px solid #eaeaea;
+}
+
+#content .dayNew div dl {
+    width: 217px;
+    height: 304px;
+    background-color: #fff;
+    border-right: 1px solid #eaeaea;
+}
+
+#content .dayNew div dl.last {
+    border: 0;
+    width: 216px;
+}
+
+#content .dayNew div dt a {
+    display: block;
+    height: 200px;
+    width: 217px;
+    background: url(../images/home/sprite.png) 0 -402px no-repeat;
+}
+
+#content .dayNew div dd.title {
+    height: 38px;
+    line-height: 19px;
+    font-size: 13px;
+    padding: 0 15px;
+}
+
+#content .dayNew div dd.title a {
+    color: #000;
+}
+
+#content .dayNew div dd.title a:hover {
+    color: #999;
+}
+
+#content .dayNew div dd.price {
+    margin-top: 11px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 0 15px;
+}
+
+#content .dayNew div dd.price span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#content .dayNew div dd.price a {
+    color: #d22147;
+}
+
+#content .dayNew div dd.country {
+    font-size: 12px;
+    color: #999;
+    padding: 0 15px;
+    height: 19px;
+    line-height: 19px;
+}
+
+.four a {
+    margin-top: 20px;
+    display: block;
+    width: 535px;
+    height: 175px;
+    background: url("../images/home/sprite.png") no-repeat 0 -602px;
+    float: left;
+}
+
+.four a.marginR {
+    margin-right: 20px;
+}
+
+.today {
+    margin-top: 21px;
+}
+
+.today h2 {
+    height: 58px;
+}
+
+.today h2 {
+    height: 58px;
+    font-size: 23px;
+    line-height: 58px;
+    font-weight: normal;
+}
+
+.today h2 span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#content .today .sales {
+    height: 331px;
+    border: 1px solid #ececec;
+    margin-bottom: 18px;
+}
+
+#content .today .sales > a {
+    display: block;
+    height: 331px;
+    width: 536px;
+    background: url(../images/home/sprite.png) no-repeat 0 -777px;
+}
+
+#content .today .sales .r {
+    padding: 0 35px;
+    background-color: #fff;
+    width: 482px;
+    height: 331px;
+}
+
+#content .today .sales .up {
+    height: 40px;
+    padding: 20px 0 15px 0;
+}
+
+#content .today .sales .up {
+    border-bottom: 1px solid #ebebeb;
+    height: 40px;
+}
+
+#content .today .sales .up .title {
+    height: 40px;
+    background: url("../images/home/sprite.png") no-repeat 0 -1108px;
+    padding-left: 50px;
+}
+
+#content .today .sales .down .title {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+#content .today .sales .down .text {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 10px 0 20px;
+}
+
+#content .today .sales .down .price {
+    font-size: 12px;
+    color: #d22147;
+
+}
+
+#content .today .sales .down .price span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#content .today .sales .down .kaola {
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+}
+
+#content .today .sales .down .kaola span {
+    font-weight: bold;
+    text-decoration: line-through;
+    color: #000;
+}
+
+#content .next {
+    margin-bottom: 19px;
+}
+
+#content .next div dt a {
+    display: block;
+    height: 200px;
+    width: 217px;
+    background: url(../images/home/sprite.png) 0 -1188px no-repeat;
+}
+
+#content .next .dayNew div dd.country span {
+    text-decoration: line-through;
+}
+
+#content .next h2 {
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    background: url(../images/home/sprite.png) 0 -1148px no-repeat;
+    padding-left: 50px;
+    color: #fff;
+}
+
+#content .next h2 span {
+    font-size: 18px;
+    font-weight: normal;
+    color: #000;
+}
+
+#content .global h2 {
+    height: 61px;
+    line-height: 61px;
+    font-size: 22px;
+}
+
+#content .global h2 span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#content .global dl {
+    width: 535px;
+    height: 530px;
+    border: 1px solid #ededed;
+    margin-bottom: 18px;
+    background-color: #fff;
+}
+
+#content .global dl dt {
+    width: 535px;
+    height: 330px;
+    margin-bottom: 5px;
+}
+
+#content .global dl dt a {
+    display: block;
+    width: 535px;
+    height: 330px;
+    background: url("../images/home/sprite.png") no-repeat 0 -1390px;
+}
+
+#content .global dl .where {
+    font-size: 12px;
+    color: #999;
+    height: 52px;
+    line-height: 52px;
+    background: url("../images/home/sprite.png") no-repeat 30px -1721px;
+    padding-left: 64px;
+}
+
+#content .global dl .title {
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+#content .global dl .title a {
+    color: #000;
+}
+
+#content .global dl .secondTitle {
+    height: 35px;
+    padding-left: 30px;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+#content .global dl .secondTitle a {
+    color: #000;
+}
+
+#content .global dl .price {
+    margin-top: 8px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+#content .global dl .price a {
+    color: #d22147;
+}
+
+#content .global dl .price a span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#content .global dl .country {
+    font-size: 12px;
+    color: #999;
+    padding-left: 30px;
+    height: 14px;
+    line-height: 14px;
+}
+
+#content .buy h2 {
+    height: 60px;
+    line-height: 60px;
+    font-size: 22px;
+}
+
+#content .buy h2 span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

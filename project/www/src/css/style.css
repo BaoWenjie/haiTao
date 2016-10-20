@@ -1,0 +1,49 @@
+
+div, p, ul, li, h1, h2, h3, h4, h5, a, span, img, html, body, input, dl, dt, dd, strong {
+    padding: 0;
+    margin: 0;
+    font-family: 'Microsoft Yahei';
+}
+
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+.w {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0
+}
+
+input {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
