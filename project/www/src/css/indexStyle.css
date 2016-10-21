@@ -224,6 +224,114 @@
     height: 42px;
 }
 
+#nav #subManu {
+    height: 42px;
+    width: 110px;
+    background-color: #d22147;
+    line-height: 42px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+
+#nav #subManu:hover .secondManu {
+visibility: visible;
+}
+#nav #subManu a {
+    display: block;
+    height: 42px;
+    width: 110px;
+    color: #fff;
+}
+
+#nav #subManu .secondManu {
+    height: 400px;
+    width: 140px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 1;
+    display: block;
+    padding: 0 10px;
+    visibility: hidden;
+}
+
+#nav #subManu .secondManu div {
+    height: 39px;
+    border-bottom: 1px solid #413e3b;
+    line-height: 39px;
+    font-size: 13px;
+}
+
+#nav #subManu .secondManu div a {
+    display: block;
+    height: 39px;
+    width: 140px;
+    color: #FFF;
+}
+
+#nav #subManu .secondManu .thirdManu {
+    height: 390px;
+    width: 650px;
+    background-color: #fff;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    padding-left: 25px;
+    padding-top: 8px;
+    border: 1px solid #666;
+    visibility: hidden;
+}
+
+#nav #subManu .secondManu div a:hover {
+    background-color: rgba(74, 74, 74, 0.7)
+}
+
+#nav #subManu .secondManu div:hover .thirdManu {
+    visibility: visible;
+}
+
+#nav #subManu .secondManu .thirdManu dl {
+    width: 270px;
+    padding-right: 35px;
+}
+
+#nav #subManu .secondManu .thirdManu dl.odd {
+    margin-right: 35px;
+}
+
+#nav #subManu .secondManu .thirdManu dl dt {
+    width: 275px;
+    height: 36px;
+    margin-bottom: 6px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#nav #subManu .secondManu .thirdManu dl dt a {
+    display: inline;
+    color: #000;
+}
+
+#nav #subManu .secondManu .thirdManu dl dd {
+    line-height: 26px;
+    text-align: left;
+}
+
+#nav #subManu .secondManu .thirdManu dl dd a {
+    display: inline;
+    color: #666;
+}
+
+#nav #subManu .secondManu .thirdManu dl dd span {
+    margin: 0 8px;
+}
+
+#nav .subManu a {
+    color: #fff;
+}
+
 #nav ul li {
     width: 110px;
     height: 42px;
@@ -254,7 +362,69 @@
 
 #pic {
     height: 400px;
-    background-color: greenyellow;
+    font-family: "宋体";
+    font-size: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+#pic .images {
+    width: 11520px;
+    position: absolute;
+    left: 0;
+}
+
+#pic .images li {
+    float: left;
+}
+
+#pic .num {
+    position: absolute;
+    width: 100%;
+    bottom: 8px;
+    left: 0;
+    text-align: center;
+    font-size: 0;
+}
+
+#pic .num li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: dimgrey;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#pic .num .on {
+    background-color: coral;
+}
+
+#pic .btn {
+    width: 40px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    display: none;
+}
+
+#pic:hover .btn {
+    display: block;
+}
+
+#pic .btn_l {
+    left: 200px;
+}
+
+#pic .btn_r {
+    right: 200px;
 }
 
 #icon {
@@ -268,6 +438,7 @@
 
 #content {
     background: #f3f3f3;
+    padding-bottom: 80px;
 }
 
 #content .dayNew {
@@ -584,59 +755,420 @@
     font-weight: normal;
 }
 
+#content .buy > div {
+    border: 1px solid #ededed;
+}
 
+#content .buy dl.l {
+    height: 362px;
+    width: 362px;
+    background-color: #fff;
+}
 
+#content .buy dl.l .red {
+    height: 68px;
+    padding-top: 10px;
+    background: url("../images/home/sprite.png") no-repeat 0 -2048px;
+    position: relative;
+}
 
+#content .buy dl.l .red span {
+    position: absolute;
+    color: #fff;
+    top: 10px;
+    right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
 
+#content .buy dl.l dt {
+    width: 362px;
+    height: 275px;
+    background: url("../images/home/sprite.png") no-repeat 0 -1773px;
+}
 
+#content .buy dl.l .red dt a {
+    display: block;
+    width: 362px;
+    height: 275px;
+}
 
+#content .buy dl.l dd {
+    line-height: 20px;
+    padding-left: 10px;
+    width: 250px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
 
+#content .buy dl.l dd.title a {
+    color: #fff;
+}
 
+#content .buy dl.l dd.title a:hover {
+    text-decoration: underline;
+}
 
+#content .buy dl.l dd.reason {
+    font-weight: normal;
+}
 
+#content .buy div.r {
+    width: 725px;
+    height: 363px;
+    border-left: 1px solid #ededed;
+}
 
+#content .buy div.r dl {
+    height: 180px;
+    width: 360px;
+    background-color: #fff;
+    border: 1px solid #ededed;
+}
 
+#content .buy div.r dl dt {
+    width: 150px;
+    height: 180px;
+    background: url("../images/home/sprite.png") no-repeat 0 -2126px;
+}
 
+#content .buy div.r dl dd {
+    float: right;
+    width: 198px;
+}
 
+#content .buy div.r dl dd.title {
+    margin: 21px 0 10px;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 26px;
+    width: 172px;
+}
 
+#content .buy div.r dl dd.title a {
+    color: #000;
+}
 
+#content .buy div.r dl dd.price {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
 
+#content .buy div.r dl dd.price a {
+    color: #d22147;
+}
 
+#content .buy div.r dl dd.price a span {
+    font-size: 16px;
+    font-weight: bold;
+}
 
+#content .buy div.r dl dd.reason {
+    font-size: 12px;
+    color: #666;
+}
 
+#link {
+    background-color: #fff;
+}
 
+#link .trust {
+    height: 124px;
+    border-bottom: 1px solid #eaeaea;
+}
 
+#link .trust div {
+    height: 84px;
+    width: 214px;
+    padding-top: 40px;
+    padding-left: 58px;
+}
 
+#link .trust div h3 {
+    font-size: 18px;
+}
 
+#link .trust div p {
+    font-size: 14px;
+}
 
+#link .trust div.one {
+    background: url("../images/home/sprite.png") no-repeat 0 -2306px;
+}
 
+#link .trust div.two {
+    background: url("../images/home/sprite.png") no-repeat 0 -2430px;
+}
 
+#link .trust div.three {
+    background: url("../images/home/sprite.png") no-repeat 0 -2554px;
+}
 
+#link .trust div.four {
+    background: url("../images/home/sprite.png") no-repeat 0 -2678px;
+}
 
+#link .station {
+    padding-top: 40px;
+}
 
+#link .station .contact {
+    width: 235px;
+    height: 127px;
+}
 
+#link .station .contact {
+    height: 60px;
+}
 
+#link .station .contact p {
+    height: 30px;
+    line-height: 22px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #d22147;
+    border-bottom: 1px solid #d22147;
+    width: 194px;
+}
 
+#link .station .contact span {
+    line-height: 30px;
+    font-size: 14px;
+    color: #d22147;
+}
 
+#link .station .watch {
+    height: 50px;
+    padding-top: 18px;
+}
 
+#link .station .watch strong {
+    float: left;
+    margin-top: 5px;
+}
 
+#link .station .watch span {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin-right: 13px;
+}
 
+#link .station .watch span a {
+    display: block;
+    height: 32px;
+    width: 32px;
+}
 
+#link .station .watch span.one {
+    background: url("../images/home/sprite.png") no-repeat 0 -2802px;
+    margin-left: 14px;
+}
 
+#link .station .watch span.two {
+    background: url("../images/home/sprite.png") no-repeat 0 -2834px;
+}
 
+#link .station .watch span.three {
+    background: url("../images/home/sprite.png") no-repeat 0 -2866px;
+}
 
+#link .station .watch span.four {
+    background: url("../images/home/sprite.png") no-repeat 0 -2898px;
+}
 
+#link .station dl {
+    height: 127px;
+    width: 111px;
+    padding-left: 12px;
+    border-left: 1px solid #eaeaea;
+}
 
+#link .station dl dt {
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
 
+#link .station dl dd {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+}
 
+#link .station dl dd a {
+    color: #000;
+}
 
+#link .station div.coor, #link .station div.download {
+    width: 108px;
+    height: 130px;
+}
 
+#link .station div.coor {
+    margin-right: 15px;
+}
 
+.coor div {
+    width: 108px;
+    height: 108px;
+    background: url("../images/home/sprite.png") no-repeat 0 -2898px;
+    margin-bottom: 8px;
+}
 
+.download div {
+    width: 108px;
+    height: 108px;
+    background: url("../images/home/sprite.png") no-repeat 0 -3006px;
+    margin-bottom: 8px;
+}
 
+.coor a, .download a {
+    display: block;
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+}
 
+#footer {
+    height: 100px;
+    background-color: #323232;
+    margin-top: 60px;
+    padding-top: 26px;
+    position: relative;
+}
 
+#footer div {
+    height: 24px;
+    line-height: 24px;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    color: #c2c2c2;
+    font-size: 12px;
+}
 
+#footer div a {
+    color: #c2c2c2;
+}
 
+#footer div a:hover {
+    text-decoration: underline;
+}
+
+#footer p {
+    height: 26px;
+    width: 450px;
+    margin: 0 auto;
+    line-height: 26px;
+    text-align: center;
+    color: #c2c2c2;
+    font-size: 12px;
+}
+
+#footer .police {
+    display: block;
+    width: 80px;
+    height: 30px;
+    background: url("../images/home/sprite.png") no-repeat 0 -3114px;
+    margin: 5px auto;
+}
+
+#footer .ad {
+    height: 85px;
+    width: 960px;
+    background: url("../images/home/sprite.png") no-repeat 0 -3144px;
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    margin-left: -480px;
+}
+
+#footer .ad a {
+    display: block;
+    height: 85px;
+    width: 960px;
+    background: url("../images/home/sprite.png") no-repeat 0 -3144px;
+}
+
+#footer .ad span {
+    position: absolute;
+    display: block;
+    height: 29px;
+    width: 29px;
+    background: url("../images/home/sprite.png") no-repeat 0 -3229px;
+    top: -14px;
+    right: -14px;
+    cursor: pointer;
+}
+
+div.floatCtro {
+    width: 60px;
+    height: 350px;
+    position: fixed;
+    left: 25px;
+    top: 10%;
+    z-index: 100;
+    display: none;
+}
+
+div.floatCtro p {
+    width: 60px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    color: #676767;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    background: #fff;
+}
+
+div.floatCtro a {
+    display: inline-block;
+    display: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px 0 0 0;
+    background: #fff;
+    color: #000;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+div.floatCtro a span {
+    display: block;
+    width: 28px;
+    height: 44px;
+    line-height: 22px;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin: 8px 16px;
+    _margin: -10px 0 0 16px;
+}
+
+div.floatCtro a:hover {
+    background: #000;
+    color: #fff;
+    zoom: 1;
+}
+
+div.floatCtro p:hover {
+    background: #c40000;
+    color: #fff;
+}
+
+div.floatCtro p.cur {
+    background: #c40000;
+    color: #fff;
+}
 
 
