@@ -13,7 +13,7 @@ $(function () {
             $(".pic .images").css({left: -(size - 1) * 1920});
             i = size - 2;
         }
-        $("#pic .images").stop().animate({left: -i * 1920}, 500);
+        $("#pic .images").stop().animate({left: -i * 1920}, 1000);
         $("#pic .num li").eq(i).addClass("on").siblings().removeClass("on");
     });
 //            点击向右轮播
@@ -27,7 +27,7 @@ $(function () {
             $("#pic .images").css({left: 0});
             i = 1;
         }
-        $("#pic .images").stop().animate({left: -i * 1920}, 500);
+        $("#pic .images").stop().animate({left: -i * 1920}, 1000);
         if (i == size - 1) {
             $("#pic .num li").eq(0).addClass("on").siblings().removeClass("on");
         } else {
@@ -39,7 +39,7 @@ $(function () {
     $("#pic .num li").hover(function () {
         var index = $(this).index();
         i = index;
-        $("#pic .images").stop().animate({left: -i * 1920}, 500);
+        $("#pic .images").stop().animate({left: -i * 1920}, 1000);
         $(this).addClass("on").siblings().removeClass("on");
     });
 //            定时自动轮播
