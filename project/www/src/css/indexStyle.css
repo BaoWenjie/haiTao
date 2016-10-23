@@ -224,6 +224,35 @@
     height: 42px;
 }
 
+#nav .car {
+    height: 42px;
+    width: 120px;
+    text-align: center;
+    text-indent: 0px;
+    line-height: 42px;
+    font-size: 12px;
+}
+
+#nav .car a {
+    display: block;
+    height: 42px;
+    width: 120px;
+    background:url("../images/home/car.PNG") no-repeat 0 0;
+    color: #fff;
+    position: relative;
+}
+
+#nav .car span {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #d22147;
+    line-height: 20px;
+    position: absolute;
+    top: 11px;
+}
+
 #nav #subManu {
     height: 42px;
     width: 110px;
@@ -235,8 +264,9 @@
 }
 
 #nav #subManu:hover .secondManu {
-visibility: visible;
+    visibility: visible;
 }
+
 #nav #subManu a {
     display: block;
     height: 42px;
