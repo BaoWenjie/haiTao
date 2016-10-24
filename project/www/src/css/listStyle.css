@@ -1,0 +1,762 @@
+body {
+    background-color:#f3f3f3;
+}
+
+.adTop {
+    height: 80px;
+    width: 1248px;
+    background: url(../images/home/sprite.png) 0 0 no-repeat;
+    margin: 0 auto;
+}
+
+#top {
+    height: 30px;
+    border-bottom: 1px solid #ededee;
+    background-color: #f2f2f2;
+}
+
+#top .w div.l {
+    font-size: 12px;
+    color: #666;
+    line-height: 30px;
+}
+
+#top .w div.l a {
+    color: #666;
+}
+
+#top .w div.l a.phone {
+    color: #d22147;
+}
+
+#top .w div.l a.in {
+    padding-left: 21px;
+    padding-right: 11px;
+    border-right: 1px solid #d3ccd3;
+}
+
+#top .w div.l a.join {
+    padding-left: 14px;
+    padding-right: 18px;
+}
+
+#top .w ul {
+    height: 30px;
+}
+
+#top .w ul li {
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+#top .w ul span {
+    line-height: 30px;
+    color: #d3ccd3;
+    font-size: 12px;
+}
+
+#top .w ul li > a {
+    color: #666;
+    display: block;
+    height: 30px;
+    padding: 0 15px;
+}
+
+#top .w ul li.more {
+    background: url(../images/home/sprite.png) 67px -218px no-repeat;
+    padding-right: 10px;
+    position: relative;
+}
+
+#top .w ul li .person {
+    width: 89px;
+    padding: 5px 14px 12px;
+    background-color: #fff;
+    position: absolute;
+    left: -2px;
+    border: 1px solid #e8e8ea;
+    border-top: none;
+    visibility: hidden;
+}
+
+#top .w ul li .person a {
+    display: block;
+    height: 28px;
+    color: #666;
+}
+
+.person div {
+    border-bottom: 1px solid #eaeaea;
+}
+
+#top .w ul li.more:hover .person {
+    visibility: visible;
+}
+
+#top .w ul li .person a:hover {
+    color: #d22147;
+}
+
+.service {
+    width: 97px;
+    position: absolute;
+    left: -2px;
+    padding: 3px 0 12px 0;
+    background: url(../images/home/sprite.png) 0 -249px no-repeat;
+    border: 1px solid #e8e8ea;
+    border-top: none;
+    visibility: hidden;
+}
+
+.service a {
+    color: #666;
+    display: block;
+    height: 28px;
+    text-indent: 33px;
+    line-height: 28px;
+}
+
+#top .w ul li.more:hover .service {
+    visibility: visible;
+}
+
+#top .w ul li.last {
+    background: url(../images/home/sprite.png) 44px -218px no-repeat;
+    padding-right: 10px;
+    position: relative;
+}
+
+#top .w ul li.last .moreDiv {
+    width: 60px;
+    padding: 3px 14px 12px;
+    border: 1px solid #e8e8ea;
+    border-top: none;
+    background-color: #fff;
+    position: absolute;
+    left: -2px;
+    visibility: hidden;
+}
+
+#top .w ul li.last .moreDiv div {
+    border-bottom: 1px solid #eaeaea;
+}
+
+#top .w ul li.last .moreDiv a {
+    color: #666;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+}
+
+#top .w ul li.last:hover .moreDiv {
+    visibility: visible;
+}
+
+#top .w ul li.last .moreDiv a:hover {
+    color: #d22147;
+}
+
+#top .w a:hover {
+    color: #d22147;
+}
+
+#header {
+    height: 100px;
+}
+
+#header h1 a {
+    display: block;
+    height: 100px;
+    width: 433px;
+    background: url(../images/home/sprite.png) 0 -80px no-repeat;
+}
+
+#header .r {
+    padding-top: 26px;
+}
+
+#header .r .search {
+    float: left;
+    height: 30px;
+    width: 317px;
+    border: 1px solid #d22147;
+    background: url(../images/home/sprite.png) 0 -180px no-repeat;
+    text-indent: 30px;
+    color: #999;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+#header .r .btn {
+    float: left;
+    height: 32px;
+    width: 62px;
+    background-color: #d22147;
+    border: 0;
+    font-size: 13px;
+    color: #fff;
+}
+
+#header .r div {
+    margin-top: 38px;
+    clear: both;
+}
+
+#header .r div a {
+    font-size: 13px;
+    color: #444;
+
+}
+
+#header .r div a.red {
+    color: #d22147;
+}
+
+#header .r div span {
+    margin: 0 10px;
+    color: #b299b2;
+    font-size: 12px;
+}
+
+#nav {
+    height: 42px;
+    background-color: #222;
+}
+
+#nav ul {
+    height: 42px;
+}
+
+#nav .car {
+    height: 42px;
+    width: 120px;
+    text-align: center;
+    text-indent: 0px;
+    line-height: 42px;
+    font-size: 12px;
+}
+
+#nav .car a {
+    display: block;
+    height: 42px;
+    width: 120px;
+    background: url("../images/home/car.PNG") no-repeat 0 0;
+    color: #fff;
+    position: relative;
+}
+
+#nav .car span {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #d22147;
+    line-height: 20px;
+    position: absolute;
+    top: 11px;
+}
+
+#nav #subManu {
+    height: 42px;
+    width: 110px;
+    /*background-color: #d22147;*/
+    line-height: 42px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+
+#nav #subManu:hover .secondManu {
+    visibility: visible;
+}
+
+#nav #subManu a {
+    display: block;
+    height: 42px;
+    width: 110px;
+    color: #fff;
+}
+
+#nav #subManu .secondManu {
+    height: 400px;
+    width: 140px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 1;
+    display: block;
+    padding: 0 10px;
+    visibility: hidden;
+}
+
+#nav #subManu .secondManu div {
+    height: 39px;
+    border-bottom: 1px solid #413e3b;
+    line-height: 39px;
+    font-size: 13px;
+}
+
+#nav #subManu .secondManu div a {
+    display: block;
+    height: 39px;
+    width: 140px;
+    color: #FFF;
+}
+
+#nav #subManu .secondManu .thirdManu {
+    height: 390px;
+    width: 650px;
+    background-color: #fff;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    padding-left: 25px;
+    padding-top: 8px;
+    border: 1px solid #666;
+    visibility: hidden;
+}
+
+#nav #subManu .secondManu div a:hover {
+    background-color: rgba(74, 74, 74, 0.7)
+}
+
+#nav #subManu .secondManu div:hover .thirdManu {
+    visibility: visible;
+}
+
+#nav #subManu .secondManu .thirdManu dl {
+    width: 270px;
+    padding-right: 35px;
+}
+
+#nav #subManu .secondManu .thirdManu dl.odd {
+    margin-right: 35px;
+}
+
+#nav #subManu .secondManu .thirdManu dl dt {
+    width: 275px;
+    height: 36px;
+    margin-bottom: 6px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#nav #subManu .secondManu .thirdManu dl dt a {
+    display: inline;
+    color: #000;
+}
+
+#nav #subManu .secondManu .thirdManu dl dd {
+    line-height: 26px;
+    text-align: left;
+}
+
+#nav #subManu .secondManu .thirdManu dl dd a {
+    display: inline;
+    color: #666;
+}
+
+#nav #subManu .secondManu .thirdManu dl dd span {
+    margin: 0 8px;
+}
+
+#nav .subManu a {
+    color: #fff;
+}
+
+#nav ul li {
+    width: 110px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+}
+
+#nav ul li a {
+    color: #fff;
+    display: block;
+    height: 42px;
+    width: 110px;
+    text-align: center;
+}
+
+#nav ul li a:hover {
+    background-color: #444;
+}
+
+#nav ul li.first {
+    width: 100px;
+}
+
+#nav ul li.first a {
+    width: 100px;
+    background-color: #d22147;
+}
+
+#pic {
+    height: 400px;
+    font-family: "宋体";
+    font-size: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+#pic .images {
+    width: 11520px;
+    position: absolute;
+    left: 0;
+}
+
+#pic .images li {
+    float: left;
+}
+
+#pic .num {
+    position: absolute;
+    width: 100%;
+    bottom: 8px;
+    left: 0;
+    text-align: center;
+    font-size: 0;
+}
+
+#pic .num li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: dimgrey;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#pic .num .on {
+    background-color: coral;
+}
+
+#pic .btn {
+    width: 40px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    display: none;
+}
+
+#pic:hover .btn {
+    display: block;
+}
+
+#pic .btn_l {
+    left: 200px;
+}
+
+#pic .btn_r {
+    right: 200px;
+}
+
+#content {
+    margin-bottom: 21px;
+}
+
+#content h2 {
+    height: 67px;
+    line-height: 67px;
+    font-size: 22px;
+}
+
+#content .eat dl {
+    width: 328px;
+    height: 448px;
+    background-color: #fff;
+    position: relative;
+}
+
+#content .eat dl dt {
+    width: 328px;
+    height: 339px;
+}
+
+#content .eat dl dt a {
+    width: 328px;
+    height: 339px;
+    display: block;
+    background: url("../images/list/eat.png") no-repeat 0 0;
+}
+
+#content .eat dl dd {
+    padding-left:14px;
+}
+
+
+#content .eat dl .eatTitle {
+    line-height: 19px;
+    height: 19px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#content .eat dl .eatTitle a {
+    color: #000;
+}
+
+#content .eat dl .describe {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+#content .eat dl .eatPrice {
+    height: 25px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #d22147;
+}
+
+#content .eat dl .eatPrice span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#content .eat dl .recent {
+    line-height: 29px;
+    height: 29px;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #999999;
+}
+
+#content .eat dl .squ {
+    border: 1px dashed #d22147;
+    font-size: 12px;
+    color: #d22147;
+    padding: 2px 4px;
+    position: absolute;
+    top: 390px;
+    left: 103px;
+}
+
+#content .eat dl .buyNow {
+    height: 32px;
+    width: 88px;
+    display: block;
+    line-height: 32px;
+    text-align: center;
+    background-color: #d22147;
+    color: #fff;
+    position: absolute;
+    top: 397px;
+    left: 219px;
+}
+
+#content .eat dl.center {
+    margin: 0 5px;
+}
+
+#content .news dl {
+    width: 197px;
+    height: 304px;
+    background-color: #fff;
+    position: relative;
+    margin-left: 3px;
+}
+#content .news dl.first {
+    margin: 0;
+}
+#content .news dl dt {
+    width: 197px;
+    height: 197px;
+    background: url("../images/list/newdt.png") no-repeat 0 0;
+}
+
+#content .news dl dt a {
+    width: 197px;
+    height: 197px;
+    display: block;
+}
+
+#content .news dl .newTitle {
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+#content .news dl dd {
+    padding-left: 12px;
+}
+
+#content .news dl .newTitle a {
+    color: #000;
+}
+#content .news dl .newDescribe {
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#content .news dl .newPrice {
+    height: 19px;
+    line-height: 25px;
+    color: #d22147;
+    font-size: 12px;
+}
+#content .news dl .newPrice span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#content .news dl .squ {
+    font-size: 12px;
+    color: #d22147;
+    padding:0 4px;
+    border: 1px dashed #d22147;
+    position: absolute;
+    top:247px;
+    left:88px;
+}
+
+#content .news dl .recent {
+    font-size: 12px;
+    color: #999999;
+    height: 33px;
+    line-height: 33px;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

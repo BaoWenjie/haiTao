@@ -682,7 +682,7 @@
     height: 40px;
     line-height: 40px;
     background: url("../images/detail/evaluation.PNG") no-repeat 0 0;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 .decision .collection {
@@ -711,51 +711,448 @@
     margin-left: 616px;
 }
 
+.recommend h2 {
+    height: 64px;
+    line-height: 64px;
+    font-size: 18px;
+}
 
+.recommend h2 span {
+    font-size: 12px;
+    color: #999;
+    line-height: 64px;
+    margin-left: 12px;
+}
 
+.recommend dl {
+    width: 204px;
+    height: 304px;
+    border: 1px solid #eaeaea;
+    margin-left: 15px;
+}
 
+.recommend dl.dlFirst {
+    margin: 0;
+}
 
+.recommend dl dt {
+    height: 204px;
+    width: 204px;
+    background: url("../images/detail/recommend.png") no-repeat 0 0;
+}
 
+.recommend dl dd {
+    margin: 0 15px;
+}
 
+.recommend dl .dlTitle {
+    line-height: 20px;
+    font-size: 12px;
+}
 
+.recommend dl .dlTitle a {
+    color: #000;
+}
 
+.recommend dl .dlTitle a:hover {
+    text-decoration: underline;
+}
 
+.recommend dl .dlPrice {
+    height: 23px;
+    font-size: 15px;
+    line-height: 23px;
+    color: #d22147;
+    font-weight: bold;
+}
 
+.recommend dl .dlPrice span {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: normal;
+}
 
+.recommend dl .dlEvaluation {
+    height: 20px;
+    line-height: 20px;
+    color: #999;
+    font-size: 12px;
+}
 
+#content {
+    margin-top: 40px;
+}
 
+#content .look, #content .result {
+    width: 178px;
+    border: 1px solid #eaeaea;
+    padding-bottom: 4px;
+    margin-bottom: 29px;;
+}
 
+#content h3 {
+    height: 37px;
+    border-bottom: 1px solid #eaeaea;
+    line-height: 37px;
+    font-size: 12px;
+    text-indent: 10px;
+}
 
+#content dl {
+    width: 158px;
+    margin-left: 10px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 16px;
+}
 
+#content .lookLast {
+    border-bottom: none;
+}
 
+#content dl dt {
+    width: 158px;
+    height: 174px;
+    background: url("../images/detail/look.png") no-repeat 0 0;
+}
 
+#content dl dt a {
+    width: 158px;
+    height: 174px;
+    display: block;
+}
 
+#content dl dd {
+    margin: 0 4px;
+}
 
+#content dl dd.lookTitle {
+    line-height: 20px;
+    font-size: 12px;
+}
 
+#content dl dd.lookTitle a {
+    color: #000;
+}
 
+#content dl dd.lookPrice {
+    height: 29px;
+    line-height: 29px;
+    font-size: 16px;
+    color: #d22147;
+    font-weight: bold;
+}
 
+#content dl dd.lookPrice span {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #999999;
+    margin-left: 8px;
+}
 
+#content dl dd.lookEvaluation {
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+}
 
+#content .result dt {
+    background: url("../images/detail/result.png") no-repeat 0 0;
+}
 
+.wrap {
+    width: 888px;
+    height: 11091px;
+    background: url("../images/detail/bigPic.png") no-repeat 0 0;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 15px;
+}
 
+#content > .r {
+    width: 888px;
+}
 
+#content .like {
+    width: 888px;
+}
 
+#content .like h3 {
+    height: 58px;
+    line-height: 58px;
+    font-size: 20px;
+    border: 0;
+}
 
+#content .like h3 span {
+    font-size: 12px;
+    color: #999999;
+    font-weight: normal;
+    margin-left: 12px;
+}
+#content .like dl {
+    width: 176px;
+    height: 304px;
+    border: 1px solid #eaeaea;
+    padding: 0 14px;
+    margin-left: 0;
+    margin-right: 21px;
+}
 
+#content .like dl dt {
+    width: 175px;
+    height: 205px;
+}
 
+#content .like dl dt a {
+    display: block;
+    width: 175px;
+    height: 205px;
+    background: url("../images/detail/like.png") no-repeat 0 0;
+}
 
+#content .like dl .likeTitle {
+    line-height: 20px;
+    font-size: 12px;
+}
+#content .like dl .likeTitle a {
+    color: #000;
+}
 
+#content .like dl .likeTitle a:hover {
+    text-decoration: underline;
+    color: #999;
+}
 
+#content .like dl .likePrice {
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #d22147;
+}
 
+#content .like dl .likePrice span {
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
 
+#content .like dl .likeEvaluation {
+    font-size: 12px;
+    line-height: 12px;
+    color:#999;
+}
 
+#content .like dl.lastDl {
+    margin: 0;
+}
 
+#link {
+    background-color: #fff;
+    border-top: 1px solid #eaeaea;
+}
 
+#link .trust {
+    height: 124px;
+    border-bottom: 1px solid #eaeaea;
+}
 
+#link .trust div {
+    height: 84px;
+    width: 214px;
+    padding-top: 40px;
+    padding-left: 58px;
+}
 
+#link .trust div h3 {
+    font-size: 18px;
+}
 
+#link .trust div p {
+    font-size: 14px;
+}
 
+#link .trust div.one {
+    background: url("../images/home/sprite.png") no-repeat 0 -2306px;
+}
 
+#link .trust div.two {
+    background: url("../images/home/sprite.png") no-repeat 0 -2430px;
+}
 
+#link .trust div.three {
+    background: url("../images/home/sprite.png") no-repeat 0 -2554px;
+}
 
+#link .trust div.four {
+    background: url("../images/home/sprite.png") no-repeat 0 -2678px;
+}
 
+#link .station {
+    padding-top: 40px;
+}
+
+#link .station .contact {
+    width: 235px;
+    height: 127px;
+}
+
+#link .station .contact {
+    height: 60px;
+}
+
+#link .station .contact p {
+    height: 30px;
+    line-height: 22px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #d22147;
+    border-bottom: 1px solid #d22147;
+    width: 194px;
+}
+
+#link .station .contact span {
+    line-height: 30px;
+    font-size: 14px;
+    color: #d22147;
+}
+
+#link .station .watch {
+    height: 50px;
+    padding-top: 18px;
+}
+
+#link .station .watch strong {
+    float: left;
+    margin-top: 5px;
+}
+
+#link .station .watch span {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin-right: 13px;
+}
+
+#link .station .watch span a {
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+
+#link .station .watch span.one {
+    background: url("../images/home/sprite.png") no-repeat 0 -2802px;
+    margin-left: 14px;
+}
+
+#link .station .watch span.two {
+    background: url("../images/home/sprite.png") no-repeat 0 -2834px;
+}
+
+#link .station .watch span.three {
+    background: url("../images/home/sprite.png") no-repeat 0 -2866px;
+}
+
+#link .station .watch span.four {
+    background: url("../images/home/sprite.png") no-repeat 0 -2898px;
+}
+
+#link .station dl {
+    height: 127px;
+    width: 111px;
+    padding-left: 12px;
+    border-left: 1px solid #eaeaea;
+}
+
+#link .station dl dt {
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+#link .station dl dd {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+#link .station dl dd a {
+    color: #000;
+}
+
+#link .station div.coor, #link .station div.download {
+    width: 108px;
+    height: 130px;
+}
+
+#link .station div.coor {
+    margin-right: 15px;
+}
+
+.coor div {
+    width: 108px;
+    height: 108px;
+    background: url("../images/home/sprite.png") no-repeat 0 -2898px;
+    margin-bottom: 8px;
+}
+
+.download div {
+    width: 108px;
+    height: 108px;
+    background: url("../images/home/sprite.png") no-repeat 0 -3006px;
+    margin-bottom: 8px;
+}
+
+.coor a, .download a {
+    display: block;
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+}
+
+#footer {
+    height: 100px;
+    background-color: #323232;
+    margin-top: 60px;
+    padding-top: 26px;
+    position: relative;
+}
+
+#footer div {
+    height: 24px;
+    line-height: 24px;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    color: #c2c2c2;
+    font-size: 12px;
+}
+
+#footer div a {
+    color: #c2c2c2;
+}
+
+#footer div a:hover {
+    text-decoration: underline;
+}
+
+#footer p {
+    height: 26px;
+    width: 450px;
+    margin: 0 auto;
+    line-height: 26px;
+    text-align: center;
+    color: #c2c2c2;
+    font-size: 12px;
+}
+
+#footer .police {
+    display: block;
+    width: 80px;
+    height: 30px;
+    background: url("../images/home/sprite.png") no-repeat 0 -3114px;
+    margin: 5px auto;
+}

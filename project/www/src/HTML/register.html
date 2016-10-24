@@ -5,8 +5,11 @@
     <title>注册</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/registerStyle.css">
+    <script src="../JavaScript/lib/jquery-1.8.3.js"></script>
+    <script src="../JavaScript/lib/jquery.cookie.js"></script>
 </head>
 <body>
+
 <div id="top">
     <div class="w">
         <h1 class="l">注册</h1>
@@ -26,14 +29,15 @@
                <div class="show subTab">
                    <form action="">
                        <div class="user">
-                           <input type="text" placeholder="常用邮箱地址"><br><a href="#">没有邮箱？注册网易邮箱</a>
+                           <input type="text" placeholder="常用邮箱地址" class="username"><br><a href="#">没有邮箱？注册网易邮箱</a>
                        </div>
                        <div class="password">
                            <input type="password" placeholder="设置密码" class="pwd1"><br>
-                           <input type="password" placeholder="确认密码">
+                           <input type="password" placeholder="确认密码" class="pwd2">
                        </div>
                        <div class="security">
-                           <input type="text" placeholder="验证码" class="l"><button></button>
+                           <input type="text" placeholder="验证码" class="l
+verification"><button></button>
                        </div>
                        <div class="agree">
                            <input type="submit" value="立即注册" class="reg"><br>
@@ -90,6 +94,7 @@
 
 <script src="../JavaScript/tab.js"></script>
 
+<script src="../JavaScript/register.js"></script>
 <div id="footer">
     <div>
         <a href="#">About NetEase</a>-
@@ -105,6 +110,5 @@
     <p>增值电信业务经营许可证：浙B2-20090180-3&nbsp;&nbsp;&nbsp;&nbsp;网易版权所有@1997-2015</p>
     <a href="#" class="police"></a>
 </div>
-
 </body>
 </html>

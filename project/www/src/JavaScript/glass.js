@@ -14,8 +14,11 @@ _smallBox.onmouseover = function () {
 };
 _smallBox.onmousemove = function (ev) {
     ev = ev || window.event;
+    var sTop = document.documentElement.scrollTop || document.body.scrollTop;
+    //console.log(sTop);
     var _left = ev.clientX - _smallBox.offsetLeft - _floatBox.offsetWidth / 2;
-    var _top = ev.clientY - _smallBox.offsetTop - _floatBox.offsetHeight / 2;
+    var _top = ev.clientY - _smallBox.offsetTop + sTop - _floatBox.offsetHeight / 2;
+    console.log(_smallBox.offsetTop);
     if (_left < 0) {
         _left = 0
     } else if (_left > _smallBox.offsetWidth - _floatBox.offsetWidth) {
