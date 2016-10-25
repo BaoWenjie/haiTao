@@ -951,7 +951,8 @@
 
 #link {
     background-color: #fff;
-    border-top: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea ;
+    margin-top: 20px;
 }
 
 #link .trust {

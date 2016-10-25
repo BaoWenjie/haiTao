@@ -1,20 +1,44 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>test</title>
+    <title></title>
     <script src="www/src/JavaScript/lib/jquery-1.8.3.js"></script>
     <script src="www/src/JavaScript/lib/jquery.cookie.js"></script>
 </head>
 <body>
+<form action="">
+    <input type="text" id="user">
+    <input type="password" id="pwd">
+    <input type="submit" id="btn" value="click">
+</form>
+
 <script>
     $(function () {
-        $.cookie('name','bwj');
-        var c = JSON.parse($.cookie('name'));
-        console.log(cookie);
-        console.log(c);
-        console.log(JSON.parse(cookie));
+        var msg = msg ? msg : []
+        $('#btn').click(function () {
+            var obj = {
+                name: $('#user').val(),
+                password: $('#pwd').val()
+            }
+
+            msg.push(obj)
+            for (var i = 0; i < msg.length; i++) {
+                for (var key in msg[i]) {
+                    alert(key + ':' + msg[i][key]);
+                }
+            }
+
+
+
+
+        })
     })
+
+
+
 </script>
+
+
 </body>
 </html>

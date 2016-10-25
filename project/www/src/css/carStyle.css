@@ -1,0 +1,380 @@
+.adTop {
+    height: 80px;
+    width: 1248px;
+    background: url(../images/home/sprite.png) 0 0 no-repeat;
+    margin: 0 auto;
+}
+
+#top {
+    height: 30px;
+    border-bottom: 1px solid #ededee;
+    background-color: #f2f2f2;
+}
+
+#top .w div.l {
+    font-size: 12px;
+    color: #666;
+    line-height: 30px;
+}
+
+#top .w div.l a {
+    color: #666;
+}
+
+#top .w div.l a.phone {
+    color: #d22147;
+}
+
+#top .w div.l a.in {
+    padding-left: 21px;
+    padding-right: 11px;
+    border-right: 1px solid #d3ccd3;
+}
+
+#top .w div.l a.join {
+    padding-left: 14px;
+    padding-right: 18px;
+}
+
+#top .w ul {
+    height: 30px;
+}
+
+#top .w ul li {
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+#top .w ul span {
+    line-height: 30px;
+    color: #d3ccd3;
+    font-size: 12px;
+}
+
+#top .w ul li > a {
+    color: #666;
+    display: block;
+    height: 30px;
+    padding: 0 15px;
+}
+
+#top .w ul li.more {
+    background: url(../images/home/sprite.png) 67px -218px no-repeat;
+    padding-right: 10px;
+    position: relative;
+}
+
+#top .w ul li .person {
+    width: 89px;
+    padding: 5px 14px 12px;
+    background-color: #fff;
+    position: absolute;
+    left: -2px;
+    border: 1px solid #e8e8ea;
+    border-top: none;
+    visibility: hidden;
+}
+
+#top .w ul li .person a {
+    display: block;
+    height: 28px;
+    color: #666;
+}
+
+.person div {
+    border-bottom: 1px solid #eaeaea;
+}
+
+#top .w ul li.more:hover .person {
+    visibility: visible;
+}
+
+#top .w ul li .person a:hover {
+    color: #d22147;
+}
+
+.service {
+    width: 97px;
+    position: absolute;
+    left: -2px;
+    padding: 3px 0 12px 0;
+    background: url(../images/home/sprite.png) 0 -249px no-repeat;
+    border: 1px solid #e8e8ea;
+    border-top: none;
+    visibility: hidden;
+}
+
+.service a {
+    color: #666;
+    display: block;
+    height: 28px;
+    text-indent: 33px;
+    line-height: 28px;
+}
+
+#top .w ul li.more:hover .service {
+    visibility: visible;
+}
+
+#top .w ul li.last {
+    background: url(../images/home/sprite.png) 44px -218px no-repeat;
+    padding-right: 10px;
+    position: relative;
+}
+
+#top .w ul li.last .moreDiv {
+    width: 60px;
+    padding: 3px 14px 12px;
+    border: 1px solid #e8e8ea;
+    border-top: none;
+    background-color: #fff;
+    position: absolute;
+    left: -2px;
+    visibility: hidden;
+}
+
+#top .w ul li.last .moreDiv div {
+    border-bottom: 1px solid #eaeaea;
+}
+
+#top .w ul li.last .moreDiv a {
+    color: #666;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+}
+
+#top .w ul li.last:hover .moreDiv {
+    visibility: visible;
+}
+
+#top .w ul li.last .moreDiv a:hover {
+    color: #d22147;
+}
+
+#top .w a:hover {
+    color: #d22147;
+}
+
+#header {
+    height: 100px;
+    background: url("../images/car/header.png") no-repeat 0 0;
+}
+
+#header a {
+    display: block;
+    height: 100px;
+    width: 260px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
